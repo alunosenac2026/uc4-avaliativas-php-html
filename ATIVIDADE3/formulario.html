@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionário de Opinião</title>
+</head>
+<body>
+
+    <h1>Questionário de Tecnologia</h1>
+
+    <form action="atvd3.php" method="get">
+
+        <h3>1. Qual sistema operacional você prefere?</h3>
+
+        <input type="radio" id="windows" name="sistema" value="Windows" required>
+        <label for="windows">Windows</label>
+
+        <br>
+
+        <input type="radio" id="linux" name="sistema" value="Linux">
+        <label for="linux">Linux</label>
+
+        <br>
+
+        <input type="radio" id="macos" name="sistema" value="macOS">
+        <label for="macos">macOS</label>
+
+        <h3>2. Qual linguagem de programação você prefere?</h3>
+
+        <input type="radio" id="php" name="linguagem" value="PHP" required>
+        <label for="php">PHP</label>
+
+        <br>
+
+        <input type="radio" id="java" name="linguagem" value="Java">
+        <label for="java">Java</label>
+
+        <br>
+
+        <input type="radio" id="javascript" name="linguagem" value="JavaScript">
+        <label for="javascript">JavaScript</label>
+
+        <h3>3. Qual ferramenta você mais utiliza?</h3>
+
+        <select id="ferramenta" name="ferramenta" required>
+
+            <option value="">Selecione uma opção</option>
+            <option value="Visual Studio Code">Visual Studio Code</option>
+            <option value="NetBeans">NetBeans</option>
+            <option value="Eclipse">Eclipse</option>
+
+        </select>
+
+        <br><br>
+
+        <button type="submit">Enviar respostas</button>
+
+    </form>
+
+</body>
+</html>
